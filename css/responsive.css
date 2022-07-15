@@ -1,0 +1,35 @@
+
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .services{
+        width: 970px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .services{
+        width: 750px;
+    }
+    .single-menu{
+        flex-direction: column;
+    }
+    .single-menu img{
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .services{
+        width: 320px;
+    }
+    .menu-column{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .single-menu{
+        flex-direction: column;
+    }
+    .single-menu img{
+        margin-bottom: 25px;
+    }
+}

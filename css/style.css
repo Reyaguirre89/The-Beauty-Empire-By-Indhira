@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 90%;
+    max-width: 440px;
+    color: #000;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: linear-gradient( rgb(145, 151, 240), #fff, rgb(239, 172, 245));
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+}
+.card img{
+    width: 150px;
+    height: 160px;
+    border-radius: 50%;
+}
+.card h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.card h3{
+    font-size: 18px;
+    margin: 10px auto;
+    text-align: center;
+    max-width: 330px;
+}
+.card p{
+    font-size: 16px;
+    margin: 10px auto;
+    text-align: center;
+    max-width: 330px;
+}
+.card .links .fa-brands{
+    width: 40px;
+    border-radius: 80%;
+    margin: 10px 5px;
+    transition: 0.5s;
+    color: #000;
+}
+.card .links .fa-brands:hover{
+    background: linear-gradient( rgb(145, 151, 240), #fff, rgb(239, 172, 245));
+}
+.card .fa{
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    transition: 0.5s;
+    color: #000;
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    background: #fff;
+    color: #000;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+}
+
+.btn:hover{
+    background: linear-gradient( rgb(145, 151, 240), #fff, rgb(239, 172, 245));
+    transition: 0.5s;
+}
+
+
+/*----- Services Menu -----*/
+
+.services{
+    width: 1170px;
+    margin: 100px auto;
+}
+.services img{
+    width: 120px;
+    height: 120px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.section-title .links .fa-brands{
+    width: 40px;
+    border-radius: 80%;
+    margin: 10px 5px;
+    transition: 0.5s;
+    color: #000;
+}
+.section-title .links .fa-brands:hover{
+    background: linear-gradient( rgb(145, 151, 240), #fff, rgb(239, 172, 245));
+}
+.section-title h2::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #00875c;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section-title h2{
+    text-transform: capitalize;
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.menus{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.menu-column h4::before{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #00875c;
+    bottom: 0;
+}
+.menu-column{
+    width: 31%;
+}
+.menu-column h4{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.single-menu{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.single-menu img{
+    border-radius: 50%;
+    max-width: 120px;
+    border: 1px dashed #ddd;
+    padding: 3px;
+    margin-right: 15px;
+    transition: .3s;
+}
+.single-menu:hover img{
+    transform: rotate(360deg);
+}
+.single-menu .menu-content h5{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px dashed #222;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.single-menu .menu-content h5 span{
+    color: green;
+    float: right;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+
+/*--x-- Services Menu --x--*/
